@@ -1,0 +1,213 @@
+.outfit-uniquifier {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+.bmw{
+    width: 110%;
+    height: auto;
+    margin-left: -9.35%;
+    margin-top: -17.15%;
+}
+.doct{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: -9.5%;
+    margin-left: 2%;
+}
+.do{
+    width: 100px ;
+    height: 40px;
+    background: rgba(0, 0, 0, 0);
+    border: 1.5px white solid;
+    border-radius: 8px;
+    color: aliceblue;
+    animation: do1 2s ease 1.5s forwards ;
+    box-shadow: 0 3px 20px rgb(0 0 0 / 0.2);
+}
+.do h3{
+    margin-top: 10%;
+    font-family: "Outfit", sans-serif;
+}
+@keyframes do1 {
+    0%{
+        background: rgba(0, 0, 0, 0);
+    }
+    50%{
+        background: white;
+        color: black;
+    }
+    100%{
+        background: rgba(0, 0, 0, 0);
+    }
+}
+.do2{
+    width: 100px ;
+    height: 40px;
+    background: rgba(0, 0, 0, 0);
+    border: 1.5px white solid;
+    border-radius: 8px;
+    color: aliceblue;
+    animation: do1 2s ease 1.7s forwards;
+    
+}
+.do2 h3{
+    margin-top: 10%;
+    font-family: "Outfit", sans-serif;
+}
+
+.do3{
+
+    width: 100px ;
+    height: 40px;
+    background: rgba(0, 0, 0, 0);
+    border: 1.5px white solid;
+    border-radius: 8px;
+    color: aliceblue;
+    animation: do1 2s ease 1.9s forwards;
+    margin-top: 0%;
+}
+.do3 h3{
+    margin-top: 13%;
+    font-size: 12px;
+
+    font-family: "Outfit", sans-serif;
+}
+
+.do4{
+    width: 100px ;
+    height: 40px;
+    background: rgba(0, 0, 0, 0);
+    border: 1.5px white solid;
+    border-radius: 8px;
+    color: aliceblue;
+    animation: do1 2s ease 2.1s forwards;
+}
+.do4 h3{
+    margin-top: 10%;
+    font-family: "Outfit", sans-serif;
+}
+
+.do5{
+    width: 100px ;
+    height: 40px;
+    background: rgba(0, 0, 0, 0);
+    border: 1.5px white solid;
+    border-radius: 8px;
+    color: aliceblue;
+    animation: do1 2s ease 2.3s forwards;
+}
+.do5 h3{
+    margin-top: 10%;
+    font-family: "Outfit", sans-serif;
+}
+
+.do6{
+    width: 100px ;
+    height: 40px;
+    background: rgba(0, 0, 0, 0);
+    border: 1.5px white solid;
+    border-radius: 8px;
+    color: aliceblue;
+    animation: do1 2s ease 2.5s forwards;
+}
+.do6 h3{
+    margin-top: 10%;
+    font-family: "Outfit", sans-serif;
+}
+
+.do7{
+    width: 100px ;
+    height: 40px;
+    background: rgba(0, 0, 0, 0);
+    border: 1.5px white solid;
+    border-radius: 8px;
+    color: aliceblue;
+    animation: do1 2s ease 2.7s forwards;
+}
+.do7 h3{
+    margin-top: 10%;
+    font-family: "Outfit", sans-serif;
+}
+.do8{
+    width: 100px ;
+    height: 40px;
+    background: rgba(0, 0, 0, 0);
+    border: 1.5px white solid;
+    border-radius: 8px;
+    color: aliceblue;
+    animation: do1 2s ease 2.9s forwards;
+   
+}
+.do8 h3{
+    margin-top: 10%;
+    font-family: "Outfit", sans-serif;
+    font-size: 17px;
+}
+.linee{
+    position: absolute;
+    width: 1290px;
+    height: 5px;
+    background-color: white;
+    margin-top: 3.4%;
+    margin-left: -1.5%;
+}
+.bou{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0);
+    border: 3.5px white solid;
+    border-radius: 5px ;
+    color: rgb(30, 48, 105);
+    margin-top: -0.2%;
+    margin-left: 88%;
+    font-family: "Outfit", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    box-shadow: 0px 0px 7px black;
+}
+.bou2{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0);
+    border: 3.5px white solid;
+    border-radius: 5px ;
+    color: rgb(255, 200, 154);
+    margin-top: -0.2%;
+    margin-left: 2%;
+    font-family: "Outfit", sans-serif;
+    font-size: 27px;
+    font-weight: 500;
+    box-shadow: 0px 0px 7px black;
+}
+.ccc{
+    font-family: "Outfit", sans-serif;
+    color: aliceblue;
+    font-size: 45px;
+    margin-top: -9.3%;
+    margin-left: 5.55%;
+    animation: ccc 4s ease 1s forwards;
+    opacity: 0%;
+}
+@keyframes ccc{
+    0%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+.cca{
+    position: absolute;
+    font-family: "Outfit", sans-serif;
+    color: rgba(245, 245, 245, 0.95);
+    font-size: 35px;
+    margin-top: 0%;
+    margin-left: 42%;
+    text-shadow: 0px 0px 7px black;
+}

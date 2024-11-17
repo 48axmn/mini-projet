@@ -1,0 +1,26 @@
+/*
+2D dans 3D : on ajoute z
+translate == move(x,y)
+scale == scaleX scaleY taille d element comme zoom (x,y)
+rotate == rotateX rotateY rotation (x,y)
+matrix(scaleX,skewY,skewX,scaleY,translateX,translateY)
+*/
+
+div{
+    height: 80px;
+    width: 80px;
+    background-color: red;
+    color: white;
+
+    transform: translate(100px,50px);  /*On peut travail sur l axe x seulement et sur y isole exmp : translateX translateY*/ 
+     /*transform: scale(2);  scaleXwidth et l element interne  On peut travail sur l axe x seulement et sur y isole exmp : scaleX scaleY*/ 
+    transform: rotate(50deg);/**/
+    transform: skew(10deg,10deg);   
+    /* transform: matrix(1,0,0,1,0,0); regroupe les styles*/
+/*
+    translate: 100px 0;
+    scale : 1;
+    rotate : 30deg; */
+
+
+}

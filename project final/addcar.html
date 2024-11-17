@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>put your car</title>
+    <link rel="stylesheet" href="addcar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lancelot&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&display=swap" rel="stylesheet">
+<body>
+    <header>
+        <div class="hada"></div>
+        <div class="hada2"></div>
+    </header>
+    <h1> ajouter votre voiture </h1>
+<main>        
+    <div class="container">
+        <div class="infocar">
+            <br>
+           <form action="/upload" method="post" enctype="multipart/form-data">
+            <label id="brand2" for="brand">Marque :          </label>
+            <br>
+            <input type="text" id="brand" name="brand">
+            <br>
+            
+            <label id="model2" for="model">Modèle :</label>
+            <br>
+            <input type="text" id="model" name="model">
+            <br>
+            
+            <label id="year2" for="year">A.de Fabrication :</label>
+            <br>
+            <input type="number" id="year" name="year" min="1980" max="2024">
+            <br>
+            
+            <label id="mileage2" for="mileage">Kilométrage (km) :</label>
+            <br>
+            <input type="number" id="mileage" name="mileage" step="1000">
+            <br>
+            <label id="fuel2" for="fuel">Type de Carburant :</label>
+            <br>
+            <select id="fuel" name="fuel">
+                <option value="Essence">Essence</option>
+                <option value="Diesel">Diesel</option>
+                <option value="Hybride">Hybride</option>
+                <option value="Électrique">Électrique</option>
+            </select>
+             <button> enregister</button>
+            <br>
+            <label class="voi" for="profilePicture"> photo de voiture</label>
+            <br>
+            <input type="file" id="profilePicture" name="profilePicture" accept="image/*">
+            <br>
+            </form>
+        </div>
+    </div>
+
+</main>
+         <a href="index.html"><button class="homi">Home</button></a>
+         <a href="login.html"><button class="lgn">Login</button></a>
+    <div>
+    </div>
+     
+
+
+
+
+
+
+
+<!--    <form action="/upload" method="post" enctype="multipart/form-data">
+            <label id="profile" for="profilePicture">Télécharger votre photo :</label>
+            <input type="file" id="profilePicture" name="profilePicture" accept="image/*">
+            <button type="submit">Télécharger</button>
+            <label for="brand">Marque :</label>
+ <input type="text" id="brand" name="brand">
+
+ <label for="model">Modèle :</label>
+ <input type="text" id="model" name="model"> 
+ <br>
+
+ <label for="year">Année de Fabrication :</label>
+ <input type="number" id="year" name="year" min="1980" max="2024">
+ <br>
+
+ <label for="mileage">Kilométrage (km) :</label>
+ <input type="number" id="mileage" name="mileage" step="1000">
+ <br>
+
+ <label for="fuel">Type de Carburant :</label>
+ <select id="fuel" name="fuel">
+    <option value="Essence">Essence</option>
+    <option value="Diesel">Diesel</option>
+    <option value="Hybride">Hybride</option>
+    <option value="Électrique">Électrique</option>
+ </select>
+
+            </form>   -->
+        
+</body>
+</html>
